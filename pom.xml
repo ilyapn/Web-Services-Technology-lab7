@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.example</groupId>
+    <artifactId>Web-Services-Technology-lab7</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.apache.juddi/juddi-core -->
+        <dependency>
+            <groupId>org.apache.juddi</groupId>
+            <artifactId>juddi-core</artifactId>
+            <version>3.3.8</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.juddi/uddi-ws -->
+        <dependency>
+            <groupId>org.apache.juddi</groupId>
+            <artifactId>uddi-ws</artifactId>
+            <version>3.0.0.alpha</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.juddi/juddi-client -->
+        <dependency>
+            <groupId>org.apache.juddi</groupId>
+            <artifactId>juddi-client</artifactId>
+            <version>3.3.8</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.juddi</groupId>
+            <artifactId>uddi-ws</artifactId>
+            <version>3.3.8</version>
+        </dependency>
+
+    </dependencies>
+
+
+</project>
